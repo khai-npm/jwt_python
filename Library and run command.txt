@@ -1,0 +1,10 @@
+run in ternimal:
+py -m uvicorn src.routers.views.authen_controller:app --reload
+
+
+library :
+py -m pip install pydantic
+py -m pip install bcrypt
+py -m pip install pymongo
+py -m pip install fastapi
+py -m pip install uvicorn
